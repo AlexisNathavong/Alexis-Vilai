@@ -17,11 +17,11 @@ h1 {
 }
 
 body {
-	background:white;
+	background-image: url('./imgs/pattern-wallpaper3.png');
+
 }
 body::after {
 	content: "";
-	background-image: url('./imgs/pattern-wallpaper3.png');
 	opacity: 0.45;
 	top: 0;
 	left: 0;
