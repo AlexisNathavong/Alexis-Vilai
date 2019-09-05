@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { About, AboutHeader } from './StyledWidgets';
-
 const AboutPage = () => {
     return (
         <div className="about-page">
@@ -25,7 +24,7 @@ const AboutPage = () => {
                         We are from Milwaukee, WI, but we relocated to Dallas, TX in the beginning of June 2018 to start our new chapter as newlyweds.
 
                     </p>
-                <img className="img-container" src="imgs/wedding-day.jpg" alt="img of Alexis and Jimmy" />
+                <img className="img-container" src={require('../imgs/hubby&me.jpg')} alt="img of Alexis and Jimmy" />
                 
                 </div>
             </About>

@@ -51,8 +51,9 @@ export const About = styled.div`
     background-color: #FFDADA;
     box-shadow: 8px 8px 8px #D0D0D0;
     width: 85%;
-    height: 500px;
+    height: 900px;
     margin: 0 auto;
+    
 
     p {
         line-height: 30px;
@@ -66,8 +67,69 @@ export const About = styled.div`
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20px;
         width: 50%;
+        height: 500px;
+        object-fit: contain;
+    }
+`;
+ 
+//Welcome Page
+export const Family = styled.div`
+    display: flex;
+    flex-direction: row;
+
+    .family-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: contain;
+        justify-content: space-between;
+        width: 64%;
+       
+        margin: 0 auto;
+    }
+    
+    img {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        object-fit: contain;
+        margin-top: 20px;
+        
     }
 `;
 
+export const Couples = styled.div`
+    display: flex;
+    flex-direction: row;
+
+    .couples-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: contain;
+        justify-content: space-between;
+        width: 64%;
+       
+        margin: 0 auto;
+    }
+    
+    img {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        object-fit: contain;
+        margin-top: 20px;
+        
+    }
+`;
+
+export const Icons = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+`;
 
