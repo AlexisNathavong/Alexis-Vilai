@@ -78,13 +78,58 @@ export const About = styled.div`
 export const Family = styled.div`
     display: flex;
     flex-direction: row;
+
+    .family-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: contain;
+        justify-content: space-between;
+        width: 64%;
+       
+        margin: 0 auto;
+    }
     
     img {
         width: 30%;
         display: flex;
+        flex-direction: row;
         margin: 0 auto;
-
+        object-fit: contain;
+        margin-top: 20px;
         
     }
+`;
+
+export const Couples = styled.div`
+    display: flex;
+    flex-direction: row;
+
+    .couples-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: contain;
+        justify-content: space-between;
+        width: 64%;
+       
+        margin: 0 auto;
+    }
+    
+    img {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        object-fit: contain;
+        margin-top: 20px;
+        
+    }
+`;
+
+export const Icons = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 `;
 
