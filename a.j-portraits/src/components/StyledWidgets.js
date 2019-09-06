@@ -78,6 +78,7 @@ export const About = styled.div`
 export const Family = styled.div`
     display: flex;
     flex-direction: row;
+    border: 2px solid;
 
     .family-images {
         display: flex;
@@ -86,8 +87,8 @@ export const Family = styled.div`
         object-fit: contain;
         justify-content: space-between;
         width: 64%;
-       
         margin: 0 auto;
+        
     }
     
     img {
@@ -97,6 +98,8 @@ export const Family = styled.div`
         margin: 0 auto;
         object-fit: contain;
         margin-top: 20px;
+        margin-bottom: 20px;
+
         
     }
 `;
@@ -104,6 +107,8 @@ export const Family = styled.div`
 export const Couples = styled.div`
     display: flex;
     flex-direction: row;
+    border: 2px solid;
+    margin-bottom: 100px;
 
     .couples-images {
         display: flex;
@@ -112,7 +117,6 @@ export const Couples = styled.div`
         object-fit: contain;
         justify-content: space-between;
         width: 64%;
-       
         margin: 0 auto;
     }
     
@@ -123,6 +127,7 @@ export const Couples = styled.div`
         margin: 0 auto;
         object-fit: contain;
         margin-top: 20px;
+        margin-bottom: 20px;
         
     }
 `;
@@ -130,6 +135,6 @@ export const Couples = styled.div`
 export const Icons = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 `;
 

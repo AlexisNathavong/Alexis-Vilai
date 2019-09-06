@@ -10,7 +10,8 @@ const WelcomePage = () => {
             <WelcomeHeader>
                 <h1>Welcome to A. & J. Portraits</h1>
             </WelcomeHeader>
-
+                {/* <p>Link to some of my portfolios while I finish up rebuilding my website: </p> */}
+                {/* <button onClick={('https://ajportraits.pixieset.com/')}>Samples</button> */}
 
             <h2>Family</h2>
             <Family>
