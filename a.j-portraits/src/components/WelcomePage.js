@@ -16,19 +16,19 @@ const WelcomePage = () => {
             <h2>Family</h2>
             <Family>
                 <div className="family-images">
-                    <img src={require('../imgs/IMG_0143EE-2.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0266EE-2.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0275EE-2.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0156EE-2.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0160EE-2.jpg')} alt='' />
-                    <img src={require('../imgs/PAVINEE-1.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0143EE-resize.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0266EE-resize.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0275EE-resize.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0156EE-resize.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0160EE-resize.jpg')} alt='' />
+                    <img src={require('../imgs/PAVINEE-resize.jpg')} alt='' />
                 </div>
             </Family>
 
             <h2>Couples</h2>
             <Couples>
                 <div className="couples-images">
-                    <img src={require('../imgs/JACOB-WM2.jpg')} alt='' />
+                    <img src={require('../imgs/JACOB-WM-resize.jpg')} alt='' />
                     
                 </div>
             </Couples>
