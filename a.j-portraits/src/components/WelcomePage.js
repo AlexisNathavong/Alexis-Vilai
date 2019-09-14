@@ -16,11 +16,11 @@ const WelcomePage = () => {
             <h2>Family</h2>
             <Family>
                 <div className="family-images">
-                    <img src={require('../imgs/IMG_0143EE-resize.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0266EE-resize.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0275EE-resize.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0156EE-resize.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0160EE-resize.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0143EE-resize-1.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0266EE-resize-1.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0275EE-resize-1.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0156EE-resize-1.jpg')} alt='' />
+                    <img src={require('../imgs/IMG_0160EE-resize-1.jpg')} alt='' />
                     <img src={require('../imgs/PAVINEE-resize.jpg')} alt='' />
                 </div>
             </Family>
@@ -28,7 +28,7 @@ const WelcomePage = () => {
             <h2>Couples</h2>
             <Couples>
                 <div className="couples-images">
-                    <img src={require('../imgs/JACOB-WM-resize.jpg')} alt='' />
+                    <img src={require('../imgs/JACOB-WM-resize-1.jpg')} alt='' />
                     
                 </div>
             </Couples>
