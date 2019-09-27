@@ -12,8 +12,7 @@ const AboutPage = () => {
 
                 <div className="middle-content">
                     <p>     Hi my name is Alexis Panyathong and this is my husband, Jimmy Panyathong and we are the face of A. & J. Portraits. I always had 
-                        a passion of photography especially for editing because I can use my creativity to its full capacity. When I was in high school, 
-                        I started capturing pictures with a regular camera and started editing them as a hobby. People started noticing my work and loved it
+                        a passion of photography especially for editing because I can use my creativity to its full capacity. People started noticing my work and loved it
                         to the point where they started to encourage me to get into photography classes. But I never really pursued because I was afraid.
                         In April 2017 my fiance at the time surprised me with a gift that changed our lives.
                         He gifted me with a Canon Rebel EOS t2i with two set of lens and told me that I can finally take the big step on starting my own
