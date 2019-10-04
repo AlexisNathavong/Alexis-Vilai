@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { About, AboutHeader } from './StyledWidgets';
+
 const AboutPage = () => {
     return (
         <div className="about-page">

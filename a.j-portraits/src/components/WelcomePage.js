@@ -1,19 +1,54 @@
-import React from 'react';
+import React, { useState, useCallback } from "react";
+// import { render } from "react-dom";
+import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
+import { photos } from "../components/Photo";
+
 import { SocialIcon } from 'react-social-icons';
 
 import { WelcomeHeader, Family, Icons, Couples } from './StyledWidgets';
 
 const WelcomePage = () => {
-    
+  const images = [{ source: 'imgs/IMG_0143EE-resize-1.jpg', source: 'path/to/image-2.jpg' }];
+
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
+
     return (
         <div className="welcome-page">
             <WelcomeHeader>
                 <h1>Welcome to A. & J. Portraits</h1>
             </WelcomeHeader>
+
+            <Gallery photos={photos} onClick={openLightbox} />
+            <ModalGateway>
+                {viewerIsOpen ? (
+                <Modal onClose={closeLightbox}>
+                    <Carousel
+                        views={photos}
+                    // currentIndex={currentImage}
+                    // views={photos.map(x => ({
+                    //     ...x,
+                    //     srcset: x.srcSet,
+                    //     caption: x.title
+                    // }))}
+                    />
+                </Modal>
+                ) : null}
+            </ModalGateway>
+      
                 {/* <p>Link to some of my portfolios while I finish up rebuilding my website: </p> */}
                 {/* <button onClick={('https://ajportraits.pixieset.com/')}>Samples</button> */}
 
-            <h2>Family</h2>
+            {/* <h2>Family</h2>
             <Family>
                 <div className="family-images">
                     <img src={require('../imgs/IMG_0143EE-resize-1.jpg')} alt='' />
@@ -23,15 +58,15 @@ const WelcomePage = () => {
                     <img src={require('../imgs/IMG_0160EE-resize-1.jpg')} alt='' />
                     <img src={require('../imgs/PAVINEE-resize.jpg')} alt='' />
                 </div>
-            </Family>
+            </Family> */}
 
-            <h2>Couples</h2>
+            {/* <h2>Couples</h2>
             <Couples>
                 <div className="couples-images">
                     <img src={require('../imgs/JACOB-WM-resize-1.jpg')} alt='' />
                     
                 </div>
-            </Couples>
+            </Couples> */}
 
         
             <footer className="social-icons">
