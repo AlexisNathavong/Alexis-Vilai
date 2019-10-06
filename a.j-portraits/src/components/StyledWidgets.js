@@ -126,69 +126,7 @@ export const About = styled.div`
 `;
  
 //Welcome Page
-export const Family = styled.div`
-    display: flex;
-    flex-direction: row;
-    border: 2px solid;
-    @media (max-width: 500px) {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        
-    }
-    @media (max-width: 800px) {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        
-    }
 
-    .family-images {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        object-fit: contain;
-        justify-content: space-between;
-        width: 64%;
-        margin: 0 auto;
-        @media (max-width: 500px) {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-            width: 80%;
-            height: 250px;
-        }
-        @media (max-width: 800px) {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-            
-        }
-        
-    }
-    
-    img {
-        width: 30%;
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto;
-        object-fit: contain;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        @media (max-width: 500px) {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
-        @media (max-width: 800px) {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-            
-        }
-        
-    }
-`;
 
 export const Couples = styled.div`
     display: flex;
@@ -256,7 +194,8 @@ export const Icons = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
+    margin-top: 30px;
+    
     @media (max-width: 500px) {
         display: flex;
         justify-content: center;

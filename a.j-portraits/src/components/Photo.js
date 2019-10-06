@@ -1,41 +1,41 @@
 export const photos = [
     {
-      src: "../imgs/IMG_0143EE-resize-1.jpg",
-      width: 4,
+      src: "https://i.imgur.com/eLctqcR.jpg/800x599",
+      width: 3,
+      height: 2
+    },
+    {
+      src: "https://i.imgur.com/IZhwoHF.jpg/500x699",
+      width: 2,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-      width: 1,
-      height: 1
-    },
-    {
-      src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-      width: 4,
+      src: "https://i.imgur.com/2cVDiil.jpg/600x799",
+      width: 2,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+      src: "https://i.imgur.com/QjU2bwR.jpg/600x799",
+      width: 2,
+      height: 3
+    },
+    {
+      src: "https://i.imgur.com/9rI2FHU.jpg/600x799",
+      width: 2,
+      height: 3
+    },
+    {
+      src: "https://i.imgur.com/AEGsRML.jpg/800x599",
+      width: 3,
+      height: 2
+    },
+    {
+      src: "https://i.imgur.com/uCWMIKc.jpg/600x799",
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+      src: "https://i.imgur.com/m4AZUco.jpg/800x599",
       width: 4,
       height: 3
     },

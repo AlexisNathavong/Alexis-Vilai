@@ -6,10 +6,9 @@ import { photos } from "../components/Photo";
 
 import { SocialIcon } from 'react-social-icons';
 
-import { WelcomeHeader, Family, Icons, Couples } from './StyledWidgets';
+import { WelcomeHeader, Icons, Container} from './StyledWidgets';
 
 const WelcomePage = () => {
-  const images = [{ source: 'imgs/IMG_0143EE-resize-1.jpg', source: 'path/to/image-2.jpg' }];
 
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
@@ -27,48 +26,26 @@ const WelcomePage = () => {
             <WelcomeHeader>
                 <h1>Welcome to A. & J. Portraits</h1>
             </WelcomeHeader>
-
             <Gallery photos={photos} onClick={openLightbox} />
-            <ModalGateway>
-                {viewerIsOpen ? (
-                <Modal onClose={closeLightbox}>
-                    <Carousel
-                        views={photos}
-                    // currentIndex={currentImage}
-                    // views={photos.map(x => ({
-                    //     ...x,
-                    //     srcset: x.srcSet,
-                    //     caption: x.title
-                    // }))}
-                    />
-                </Modal>
-                ) : null}
-            </ModalGateway>
+
+            <Container>
+                <ModalGateway>
+                    {viewerIsOpen ? (
+                    <Modal onClose={closeLightbox}>
+                        <Carousel
+                            views={photos}
+                        // currentIndex={currentImage}
+                        // views={photos.map(x => ({
+                        //     ...x,
+                        //     srcset: x.srcSet,
+                        //     caption: x.title
+                        // }))}
+                        />
+                    </Modal>
+                    ) : null}
+                </ModalGateway>
+            </Container>
       
-                {/* <p>Link to some of my portfolios while I finish up rebuilding my website: </p> */}
-                {/* <button onClick={('https://ajportraits.pixieset.com/')}>Samples</button> */}
-
-            {/* <h2>Family</h2>
-            <Family>
-                <div className="family-images">
-                    <img src={require('../imgs/IMG_0143EE-resize-1.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0266EE-resize-1.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0275EE-resize-1.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0156EE-resize-1.jpg')} alt='' />
-                    <img src={require('../imgs/IMG_0160EE-resize-1.jpg')} alt='' />
-                    <img src={require('../imgs/PAVINEE-resize.jpg')} alt='' />
-                </div>
-            </Family> */}
-
-            {/* <h2>Couples</h2>
-            <Couples>
-                <div className="couples-images">
-                    <img src={require('../imgs/JACOB-WM-resize-1.jpg')} alt='' />
-                    
-                </div>
-            </Couples> */}
-
-        
             <footer className="social-icons">
                 
                     <Icons>
