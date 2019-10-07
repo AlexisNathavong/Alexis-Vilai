@@ -40,8 +40,8 @@ export const photos = [
       height: 3
     },
     {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-      width: 4,
-      height: 3
+      src: "https://i.imgur.com/0rgN50A.jpg/800x599",
+      width: 3,
+      height: 2
     }
   ];

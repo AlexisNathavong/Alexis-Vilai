@@ -6,7 +6,7 @@ import { photos } from "../components/Photo";
 
 import { SocialIcon } from 'react-social-icons';
 
-import { WelcomeHeader, Icons, Container} from './StyledWidgets';
+import { WelcomeHeader, Icons } from './StyledWidgets';
 
 const WelcomePage = () => {
 
@@ -28,23 +28,23 @@ const WelcomePage = () => {
             </WelcomeHeader>
             <Gallery photos={photos} onClick={openLightbox} />
 
-            <Container>
+            
                 <ModalGateway>
                     {viewerIsOpen ? (
                     <Modal onClose={closeLightbox}>
                         <Carousel
-                            views={photos}
-                        // currentIndex={currentImage}
-                        // views={photos.map(x => ({
-                        //     ...x,
-                        //     srcset: x.srcSet,
-                        //     caption: x.title
-                        // }))}
+                            // views={photos}
+                        currentIndex={currentImage}
+                        views={photos.map(x => ({
+                            ...x,
+                            srcset: x.srcSet,
+                            caption: x.title
+                        }))}
                         />
                     </Modal>
                     ) : null}
                 </ModalGateway>
-            </Container>
+            
       
             <footer className="social-icons">
                 

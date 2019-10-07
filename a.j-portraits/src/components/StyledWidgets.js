@@ -43,10 +43,6 @@ export const WelcomeHeader = styled.h1`
 
 `;
 
-export const Container = styled.h1`
-    border: 2px solid;
-`;
-
 //About Page
 export const AboutHeader = styled.h1`
     font-family: 'Tangerine', cursive;
@@ -67,6 +63,7 @@ export const About = styled.div`
     width: 65%;
     height: 750px;
     margin: 0 auto;
+    
     @media (max-width: 500px) {
         display: flex;
         justify-content: center;
