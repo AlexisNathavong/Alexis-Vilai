@@ -35,6 +35,11 @@ export const WelcomeHeader = styled.h1`
     font-weight: regular;
     font-size: 20px;
     text-align: center;
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
 
 `;
 
@@ -44,15 +49,36 @@ export const AboutHeader = styled.h1`
     font-weight: regular;
     font-size: 20px;
     text-align: center;
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
 `;
 
 export const About = styled.div`
     border: 2px solid;
-    background-color: #FFDADA;
+    background-color: #FFFFFF;
     box-shadow: 8px 8px 8px #D0D0D0;
-    width: 85%;
-    height: 900px;
+    width: 65%;
+    height: 750px;
     margin: 0 auto;
+    
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        height: 1000px;
+        width: 100%;
+    }
+    @media (max-width: 800px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        height: 860px;
+        width: 80%;
+        
+    }
     
 
     p {
@@ -61,6 +87,19 @@ export const About = styled.div`
         margin: 0 auto;
         margin-top: 60px;
         font-size: 18px;
+        @media (max-width: 500px) {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        @media (max-width: 800px) {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 42px;
+            
+        }
     }
 
     .img-container {
@@ -69,46 +108,43 @@ export const About = styled.div`
         margin-right: auto;
         margin-top: 20px;
         width: 50%;
-        height: 500px;
+        height: 255px;
         object-fit: contain;
+        @media (max-width: 500px) {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            width: 80%;
+            height: 250px;
+        }
+        @media (max-width: 800px) {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            
+        }
     }
 `;
  
 //Welcome Page
-export const Family = styled.div`
-    display: flex;
-    flex-direction: row;
-    border: 2px solid;
 
-    .family-images {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        object-fit: contain;
-        justify-content: space-between;
-        width: 64%;
-        margin: 0 auto;
-        
-    }
-    
-    img {
-        width: 30%;
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto;
-        object-fit: contain;
-        margin-top: 20px;
-        margin-bottom: 20px;
-
-        
-    }
-`;
 
 export const Couples = styled.div`
     display: flex;
     flex-direction: row;
     border: 2px solid;
     margin-bottom: 100px;
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    @media (max-width: 800px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
 
     .couples-images {
         display: flex;
@@ -118,6 +154,17 @@ export const Couples = styled.div`
         justify-content: space-between;
         width: 64%;
         margin: 0 auto;
+        @media (max-width: 500px) {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        @media (max-width: 800px) {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            
+        }
     }
     
     img {
@@ -128,13 +175,40 @@ export const Couples = styled.div`
         object-fit: contain;
         margin-top: 20px;
         margin-bottom: 20px;
+        @media (max-width: 500px) {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        @media (max-width: 800px) {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            
+        }
         
     }
 `;
 
+//Footer
 export const Icons = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 30px;
+    
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    @media (max-width: 800px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
 `;
 
