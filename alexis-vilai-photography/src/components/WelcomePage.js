@@ -24,7 +24,7 @@ const WelcomePage = () => {
     return (
         <div className="welcome-page">
             <WelcomeHeader>
-                <h1>Welcome to A. & J. Portraits</h1>
+                <h1>Welcome to Alexis Vilai Photography</h1>
             </WelcomeHeader>
             <Gallery photos={photos} onClick={openLightbox} />
 
@@ -51,7 +51,7 @@ const WelcomePage = () => {
                     <Icons>
                         <SocialIcon url="https://twitter.com/Alex_Panyathong" />
                         <SocialIcon url="https://www.facebook.com/ajpportraits/" />
-                        <SocialIcon url="https://www.instagram.com/a.j.portraits/" />
+                        <SocialIcon url="https://www.instagram.com/alexisvilaiphotography/" />
                     </Icons>
                 
             </footer>

@@ -61,21 +61,21 @@ export const About = styled.div`
     background-color: #FFFFFF;
     box-shadow: 8px 8px 8px #D0D0D0;
     width: 65%;
-    height: 750px;
+    height: 500px;
     margin: 0 auto;
     
     @media (max-width: 500px) {
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        height: 1000px;
+        height: 598px;
         width: 100%;
     }
     @media (max-width: 800px) {
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        height: 860px;
+        height: 510px;
         width: 80%;
         
     }
