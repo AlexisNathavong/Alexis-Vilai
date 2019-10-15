@@ -18,6 +18,8 @@ const AppRouter = () => {
                     <Link to='/'>Home</Link>
                     <Link to='/aboutpage'>About</Link>
                     <Link to='/bookingpage'>Investment</Link>
+                    <a href="https://alexisvilaiphotography.pixieset.com/" target="_blank">Portfolio</a>
+
                 </div>
             </Nav>
 
