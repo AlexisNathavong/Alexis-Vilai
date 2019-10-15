@@ -1,46 +1,46 @@
 export const photos = [
     {
-      src: "https://i.imgur.com/eLctqcR.jpg/800x599",
+      src: "https://i.imgur.com/irzGCA8.jpg/800x599",
       width: 3,
       height: 2
     },
     {
-      src: "https://i.imgur.com/IZhwoHF.jpg/500x699",
+      src: "https://i.imgur.com/oEm31X0.jpg/500x699",
       width: 2,
       height: 3
     },
     {
-      src: "https://i.imgur.com/2cVDiil.jpg/600x799",
+      src: "https://i.imgur.com/SoqNFni.jpg/600x799",
       width: 2,
       height: 3
     },
     {
-      src: "https://i.imgur.com/QjU2bwR.jpg/600x799",
+      src: "https://i.imgur.com/WVT1DN5.jpg/600x799",
       width: 2,
       height: 3
     },
     {
-      src: "https://i.imgur.com/9rI2FHU.jpg/600x799",
+      src: "https://i.imgur.com/YAhKWZk.jpg/600x799",
       width: 2,
       height: 3
     },
     {
-      src: "https://i.imgur.com/AEGsRML.jpg/800x599",
+      src: "https://i.imgur.com/VOfJcda.jpg/800x599",
       width: 3,
       height: 2
     },
     {
-      src: "https://i.imgur.com/uCWMIKc.jpg/600x799",
+      src: "https://i.imgur.com/ZOn48AF.jpg/600x799",
       width: 3,
       height: 4
     },
     {
-      src: "https://i.imgur.com/m4AZUco.jpg/800x599",
+      src: "https://i.imgur.com/7KsJPHD.jpg/800x599",
       width: 4,
       height: 3
     },
     {
-      src: "https://i.imgur.com/0rgN50A.jpg/800x599",
+      src: "https://i.imgur.com/vPDyNVC.jpg/800x599",
       width: 3,
       height: 2
     }
