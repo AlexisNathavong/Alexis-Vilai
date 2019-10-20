@@ -50,7 +50,7 @@ const WelcomePage = () => {
                 
                     <Icons>
                         <SocialIcon url="https://twitter.com/Alex_Panyathong" />
-                        <SocialIcon url="https://www.facebook.com/ajpportraits/" />
+                        <SocialIcon url="https://www.facebook.com/alexisvilaiphotography/?view_public_for=113745263368370" />
                         <SocialIcon url="https://www.instagram.com/alexisvilaiphotography/" />
                     </Icons>
                 

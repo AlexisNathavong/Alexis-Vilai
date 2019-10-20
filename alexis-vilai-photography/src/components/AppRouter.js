@@ -23,6 +23,8 @@ const AppRouter = () => {
                 </div>
             </Nav>
 
+            
+
             <Switch>
                 <Route exact path='/' component={WelcomePage} />
                 <Route path='/aboutpage' component={AboutPage} />
