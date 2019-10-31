@@ -5,22 +5,12 @@ export const photos = [
       height: 2
     },
     {
-      src: "https://i.imgur.com/oEm31X0.jpg/500x699",
+      src: "https://i.imgur.com/X8RS1Sq.jpg/500x699",
       width: 2,
       height: 3
     },
     {
-      src: "https://i.imgur.com/SoqNFni.jpg/600x799",
-      width: 2,
-      height: 3
-    },
-    {
-      src: "https://i.imgur.com/WVT1DN5.jpg/600x799",
-      width: 2,
-      height: 3
-    },
-    {
-      src: "https://i.imgur.com/YAhKWZk.jpg/600x799",
+      src: "https://i.imgur.com/lzVTZqv.jpg/600x799",
       width: 2,
       height: 3
     },
@@ -40,7 +30,37 @@ export const photos = [
       height: 3
     },
     {
-      src: "https://i.imgur.com/vPDyNVC.jpg/800x599",
+      src: "https://i.imgur.com/FzbKzBM.jpg/800x599",
+      width: 3,
+      height: 2
+    },
+    {
+      src: "https://i.imgur.com/sLoZYDX.jpg/800x599",
+      width: 3,
+      height: 2
+    },
+    {
+      src: "https://i.imgur.com/ITqZ6pi.jpg/800x599",
+      width: 3,
+      height: 2
+    },
+    {
+      src: "https://i.imgur.com/SoqNFni.jpg/600x799",
+      width: 2,
+      height: 3
+    },
+    {
+      src: "https://i.imgur.com/WVT1DN5.jpg/600x799",
+      width: 2,
+      height: 3
+    },
+    {
+      src: "https://i.imgur.com/zEPebmh.jpg/800x599",
+      width: 3,
+      height: 2
+    },
+    {
+      src: "https://i.imgur.com/2cPQJaq.jpg/800x599",
       width: 3,
       height: 2
     }
