@@ -27,31 +27,33 @@ const WelcomePage = () => {
                 <h1>Welcome to Alexis Vilai Photography</h1>
             </WelcomeHeader>
             <Gallery photos={photos} onClick={openLightbox} />
-
-            
-                <ModalGateway>
-                    {viewerIsOpen ? (
-                    <Modal onClose={closeLightbox}>
-                        <Carousel
-                            // views={photos}
-                        currentIndex={currentImage}
-                        views={photos.map(x => ({
-                            ...x,
-                            srcset: x.srcSet,
-                            caption: x.title
-                        }))}
-                        />
-                    </Modal>
-                    ) : null}
-                </ModalGateway>
-            
+               
+                    <ModalGateway>
+                        {viewerIsOpen ? (
+                        <Modal onClose={closeLightbox}>
+                            <Carousel
+                                // views={photos}
+                            currentIndex={currentImage}
+                            views={photos.map(x => ({
+                                ...x,
+                                srcset: x.srcSet,
+                                caption: x.title
+                            }))}
+                            />
+                        </Modal>
+                        ) : null}
+                    </ModalGateway>
+                
       
             <footer className="social-icons">
                 
                     <Icons>
-                        <SocialIcon url="https://twitter.com/Alex_Panyathong" />
-                        <SocialIcon url="https://www.facebook.com/alexisvilaiphotography/?view_public_for=113745263368370" />
-                        <SocialIcon url="https://www.instagram.com/alexisvilaiphotography/" />
+                        <SocialIcon url="https://twitter.com/AlexisVilai" style={{ height: 40, width: 70 }} target="_blank"/>
+                        <SocialIcon url="https://www.facebook.com/alexisvilaiphotography/?view_public_for=113745263368370" style={{ height: 40, width: 70 }} target="_blank"/>
+                        <SocialIcon url="https://www.instagram.com/alexisvilaiphotography/" style={{ height: 40, width: 70 }} target="_blank"/>
+                        <SocialIcon url="https://www.yelp.com/biz/alexis-vilai-photography-dallas?osq=Alexis+Vilai+Photography" style={{ height: 40, width: 70 }} target="_blank"/>
+                        <SocialIcon url="mailto:alexisvilaiphotography@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#ff5a01" bgColor="#ffffff" target="_blank"/>
+                        
                     </Icons>
                 
             </footer>

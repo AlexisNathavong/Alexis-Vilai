@@ -8,7 +8,7 @@ import AboutPage from './AboutPage';
 
 import { Nav } from './StyledWidgets';
 import BookingPage from './BookingPage';
-
+// import ContactPage from './ContactPage';
 
 const AppRouter = () => {
     return (
@@ -19,6 +19,7 @@ const AppRouter = () => {
                     <Link to='/aboutpage'>About</Link>
                     <Link to='/bookingpage'>Investment</Link>
                     <a href="https://alexisvilaiphotography.pixieset.com/" target="_blank">Portfolio</a>
+                    {/* <Link to='/contactpage'>Contact</Link> */}
 
                 </div>
             </Nav>
@@ -29,6 +30,7 @@ const AppRouter = () => {
                 <Route exact path='/' component={WelcomePage} />
                 <Route path='/aboutpage' component={AboutPage} />
                 <Route path='/bookingpage' component={BookingPage} />
+                {/* <Route path='/contactpage' component={ContactPage} /> */}
             </Switch>
         </Router>
     )
