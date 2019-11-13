@@ -6,7 +6,7 @@ import { photos } from "../components/Photo";
 
 import { SocialIcon } from 'react-social-icons';
 
-import { WelcomeHeader, Icons } from './StyledWidgets';
+import { WelcomeHeader, Icons, Contact } from './StyledWidgets';
 
 const WelcomePage = () => {
 
@@ -45,7 +45,16 @@ const WelcomePage = () => {
                     </ModalGateway>
                 
       
+            <div className= "footer-container">
+                <Contact>
+                <h1>Contact Me</h1>
+                <p>Business: (469) 759-0890</p>
+                <p>Email: alexisvilaiphotography@gmail.com</p>
+                <p>Location: 5811 Belt Line Rd Dallas, TX 75254</p>
+                </Contact>
+            </div>
             <footer className="social-icons">
+                
                 
                     <Icons>
                         <SocialIcon url="https://twitter.com/AlexisVilai" style={{ height: 40, width: 70 }} target="_blank"/>

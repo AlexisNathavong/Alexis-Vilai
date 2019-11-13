@@ -212,4 +212,21 @@ export const Icons = styled.div`
     }
 `;
 
+export const Contact = styled.div`
+    border: solid 1px grey;
+    width: 50%;
+    margin: 0 auto;
+    height: 160px;
+    margin-top: 90px;
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    p {
+        text-align: center;
+    }
+`;
 
