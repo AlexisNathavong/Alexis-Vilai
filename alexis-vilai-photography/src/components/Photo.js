@@ -20,9 +20,9 @@ export const photos = [
       height: 2
     },
     {
-      src: "https://i.imgur.com/ZOn48AF.jpg/600x799",
-      width: 3,
-      height: 4
+      src: "https://i.imgur.com/daKN8pu.jpg/600x799",
+      width: 2,
+      height: 3
     },
     {
       src: "https://i.imgur.com/7KsJPHD.jpg/800x599",
@@ -60,7 +60,7 @@ export const photos = [
       height: 2
     },
     {
-      src: "https://i.imgur.com/2cPQJaq.jpg/800x599",
+      src: "https://i.imgur.com/M7IKVYz.jpg/800x599",
       width: 3,
       height: 2
     }
