@@ -6,7 +6,10 @@ import { photos } from "../components/Photo";
 
 import { SocialIcon } from 'react-social-icons';
 
-import { WelcomeHeader, Icons, Contact } from './StyledWidgets';
+import { WelcomeHeader, Icons } from './StyledWidgets';
+
+import Card from 'react-bootstrap/Card'
+
 
 const WelcomePage = () => {
 
@@ -31,7 +34,7 @@ const WelcomePage = () => {
                     <ModalGateway>
                         {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
-                            <Carousel
+                            <Carousel 
                                 // views={photos}
                             currentIndex={currentImage}
                             views={photos.map(x => ({
@@ -43,16 +46,20 @@ const WelcomePage = () => {
                         </Modal>
                         ) : null}
                     </ModalGateway>
-                
-      
-            <div className= "footer-container">
-                <Contact>
-                <h1>Contact Me</h1>
-                <p>Business: (469) 759-0890</p>
-                <p>Email: alexisvilaiphotography@gmail.com</p>
-                <p>Location: 5811 Belt Line Rd Dallas, TX 75254</p>
-                </Contact>
-            </div>
+        
+            
+            <Card bg= 'light' style={{ width: '40%', margin: '0 auto', marginBottom: '50px', marginTop: '20px', textAlign: 'center'}}>
+                    <Card.Header style={{fontSize: '25px'}}>Contact Me</Card.Header>
+                <Card.Body>
+                        {/* <Card.Title>Contact Me</Card.Title> */}
+                    <Card.Text>
+                    Business: (469) 759-0890 <br/>
+                    Email: alexisvilaiphotography@gmail.com <br/>
+                    Location: 4250 E Renner Rd Richardson, TX 75082
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+
             <footer className="social-icons">
                 
                 
