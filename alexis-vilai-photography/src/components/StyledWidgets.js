@@ -230,3 +230,52 @@ export const Contact = styled.div`
     }
 `;
 
+//NewsPage
+export const News = styled.h1`
+    text-align: center;
+    font-size: 14px;
+    font-family: lato serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+;`
+
+export const PastBadge = styled.div`
+    .badge {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        margin: 0 auto;
+    }
+`;
+
+export const CardOne = styled.div`
+    border: 2px solid;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 80px;
+    
+    img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 60px;
+        width: 30%;
+
+    }
+    .card-header {
+        width: 100%;
+        cursor: pointer;
+    }
+    .accordion-toggle {
+        width: 100%;
+    }
+
+;`
+
+export const CardOneContext = styled.div`
+    .card-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+`;
