@@ -84,6 +84,27 @@ const NewsPage = () => {
                         </Card>
                     </CardOne>
             </Accordion>
+
+            <Accordion>
+                    <CardOne>
+                        <Card text="black">
+                        <Accordion.Toggle as={Card.Header} eventKey="1">
+                            Valentine Studio Special 2020!
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="1">
+                        <CardOneContext>
+                            <Card.Body>Valentines Day is coming up real fast! What better way to show your friends and families that you love them, by sending them pictures and cards! Book your session with me and let's start capturing some unforgettable candid moments!
+                            
+                            *Expires 02/09/20
+                                <img src="https://i.imgur.com/HlyR70X.jpg" alt="Valentines" />
+
+                                
+                            </Card.Body>
+                        </CardOneContext>
+                        </Accordion.Collapse>
+                        </Card>
+                    </CardOne>
+            </Accordion>
       </div>
     )
 }
