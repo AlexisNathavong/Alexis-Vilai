@@ -63,14 +63,14 @@ const WelcomePage = () => {
             <footer className="social-icons">
                 
                 
-                    <Icons>
-                        <SocialIcon url="https://twitter.com/AlexisVilai" style={{ height: 40, width: 70 }} target="_blank"/>
-                        <SocialIcon url="https://www.facebook.com/alexisvilaiphotography/?view_public_for=113745263368370" style={{ height: 40, width: 70 }} target="_blank"/>
-                        <SocialIcon url="https://www.instagram.com/alexisvilaiphotography/" style={{ height: 40, width: 70 }} target="_blank"/>
-                        <SocialIcon url="https://www.yelp.com/biz/alexis-vilai-photography-dallas?osq=Alexis+Vilai+Photography" style={{ height: 40, width: 70 }} target="_blank"/>
-                        <SocialIcon url="mailto:alexisvilaiphotography@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#ff5a01" bgColor="#ffffff" target="_blank"/>
-                        
-                    </Icons>
+                <Icons>
+                    <SocialIcon url="https://twitter.com/AlexisVilai" style={{ height: 40, width: 70 }} target="_blank"/>
+                    <SocialIcon url="https://www.facebook.com/alexisvilaiphotography/?view_public_for=113745263368370" style={{ height: 40, width: 70 }} target="_blank"/>
+                    <SocialIcon url="https://www.instagram.com/alexisvilaiphotography/" style={{ height: 40, width: 70 }} target="_blank"/>
+                    <SocialIcon url="https://www.yelp.com/biz/alexis-vilai-photography-dallas?osq=Alexis+Vilai+Photography" style={{ height: 40, width: 70 }} target="_blank"/>
+                    <SocialIcon url="mailto:alexisvilaiphotography@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#ff5a01" bgColor="#ffffff" target="_blank"/>
+                            
+                </Icons>
                 
             </footer>
         </div>
