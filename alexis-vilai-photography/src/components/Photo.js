@@ -1,11 +1,11 @@
 export const photos = [
     {
-      src: "https://i.imgur.com/irzGCA8.jpg/800x599",
+      src: "https://i.imgur.com/ouqFePm.jpg.jpg/800x599",
       width: 3,
       height: 2
     },
     {
-      src: "https://i.imgur.com/X8RS1Sq.jpg/500x699",
+      src: "https://i.imgur.com/8fpYHIU.jpg/500x699",
       width: 2,
       height: 3
     },
@@ -25,22 +25,22 @@ export const photos = [
       height: 3
     },
     {
-      src: "https://i.imgur.com/7KsJPHD.jpg/800x599",
+      src: "https://i.imgur.com/rzbbVtD.jpg/800x599",
       width: 4,
       height: 3
     },
     {
-      src: "https://i.imgur.com/FzbKzBM.jpg/800x599",
+      src: "https://i.imgur.com/cGdBPuI.jpg/800x599",
       width: 3,
       height: 2
     },
     {
-      src: "https://i.imgur.com/sLoZYDX.jpg/800x599",
+      src: "https://i.imgur.com/wZrB83I.jpg/800x599",
       width: 3,
       height: 2
     },
     {
-      src: "https://i.imgur.com/ITqZ6pi.jpg/800x599",
+      src: "https://i.imgur.com/3NArPJn.jpg/800x599",
       width: 3,
       height: 2
     },
@@ -49,19 +49,19 @@ export const photos = [
       width: 2,
       height: 3
     },
-    {
-      src: "https://i.imgur.com/WVT1DN5.jpg/600x799",
-      width: 2,
-      height: 3
-    },
-    {
-      src: "https://i.imgur.com/zEPebmh.jpg/800x599",
-      width: 3,
-      height: 2
-    },
-    {
-      src: "https://i.imgur.com/M7IKVYz.jpg/800x599",
-      width: 3,
-      height: 2
-    }
+    // {
+    //   src: "https://i.imgur.com/WVT1DN5.jpg/600x799",
+    //   width: 2,
+    //   height: 3
+    // },
+    // {
+    //   src: "https://i.imgur.com/zEPebmh.jpg/800x599",
+    //   width: 2,
+    //   height: 2
+    // },
+    // {
+    //   src: "https://i.imgur.com/M7IKVYz.jpg/800x599",
+    //   width: 3,
+    //   height: 2
+    // }
   ];
