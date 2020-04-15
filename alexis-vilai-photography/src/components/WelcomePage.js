@@ -8,7 +8,7 @@ import { SocialIcon } from 'react-social-icons';
 
 import { WelcomeHeader, Icons } from './StyledWidgets';
 
-import Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
 
 
 const WelcomePage = () => {
@@ -27,7 +27,7 @@ const WelcomePage = () => {
     return (
         <div className="welcome-page">
             <WelcomeHeader>
-                <h1>Welcome to Alexis Vilai Photography</h1>
+                <h1>Alexis Vilai Photography</h1>
             </WelcomeHeader>
             <Gallery photos={photos} onClick={openLightbox} />
                
