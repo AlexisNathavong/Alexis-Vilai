@@ -126,6 +126,20 @@ export const About = styled.div`
     }
 `;
  
+export const IMG = styled.div`
+    .img-container {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        margon: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+`;
+
 //Welcome Page
 
 
