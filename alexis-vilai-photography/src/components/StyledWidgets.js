@@ -131,6 +131,7 @@ export const IMG = styled.div`
         width: 40%;
         display: flex;
         justify-content: center;
+        margin: 0 auto;
     }
 
     img {
