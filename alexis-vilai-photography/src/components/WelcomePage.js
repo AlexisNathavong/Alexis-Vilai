@@ -4,11 +4,14 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "../components/Photo";
 
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 
 import { WelcomeHeader, Icons } from './StyledWidgets';
 
 import Card from 'react-bootstrap/Card';
+
+// Social Icons
+import SocialLinks from '../components/SocialLinks';
 
 
 const WelcomePage = () => {
@@ -55,7 +58,7 @@ const WelcomePage = () => {
                     <Card.Text>
                     Business: (469) 759-0890 <br/>
                     Email: alexisvilaiphotography@gmail.com <br/>
-                    Location: 4250 E Renner Rd Richardson, TX 75082
+                    Location: 5720 Lunsford Rd Plano, TX 75024
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -64,11 +67,14 @@ const WelcomePage = () => {
                 
                 
                 <Icons>
-                    <SocialIcon url="https://twitter.com/AlexisVilai" style={{ height: 40, width: 70 }} target="_blank"/>
+                    <SocialLinks>
+
+                    </SocialLinks>
+                    {/* <SocialIcon url="https://twitter.com/AlexisVilai" style={{ height: 40, width: 70 }} target="_blank"/>
                     <SocialIcon url="https://www.facebook.com/alexisvilaiphotography/?view_public_for=113745263368370" style={{ height: 40, width: 70 }} target="_blank"/>
                     <SocialIcon url="https://www.instagram.com/alexisvilaiphotography/" style={{ height: 40, width: 70 }} target="_blank"/>
-                    <SocialIcon url="https://www.yelp.com/biz/alexis-vilai-photography-dallas?osq=Alexis+Vilai+Photography" style={{ height: 40, width: 70 }} target="_blank"/>
-                    <SocialIcon url="mailto:alexisvilaiphotography@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#ff5a01" bgColor="#ffffff" target="_blank"/>
+                    <SocialIcon url="https://www.yelp.com/biz/alexis-vilai-photography-dallas?osq=Alexis+Vilai+Photography" style={{ height: 40, width: 70 }} target="_blank"/> */}
+                    {/* <SocialIcon url="mailto:alexisvilaiphotography@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#ff5a01" bgColor="#ffffff" target="_blank"/> */}
                             
                 </Icons>
                 

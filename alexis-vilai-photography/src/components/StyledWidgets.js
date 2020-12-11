@@ -141,6 +141,7 @@ export const Icons = styled.div`
     flex-direction: row;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 95px;
     
     @media (max-width: 500px) {
         display: flex;
@@ -154,6 +155,10 @@ export const Icons = styled.div`
         margin: 0 auto;
         margin-top: 20px;
         
+    }
+
+    .links a {
+        margin: 10px;
     }
 `;
 
