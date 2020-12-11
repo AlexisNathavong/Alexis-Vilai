@@ -20,7 +20,7 @@ const AppRouter = () => {
                     <Link to='/'>Home</Link>
                     <Link to='/aboutpage'>About</Link>
                     <Link to='/bookingpage'>Investment</Link>
-                    <a href="https://alexisvilaiphotography.pixieset.com/" target="_blank">Portfolio</a>
+                    <a href="https://alexisvilaiphotography.pixieset.com/" target="_blank" rel="noopener noreferrer">Portfolio</a>
                     {/* <Link to='/contactpage'>Contact</Link> */}
                     <Link to='/newspage'>What's New</Link>
                     <Link to='/info'>Q&A</Link>

@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card'
 
 
-import { About, AboutHeader, IMG } from './StyledWidgets';
+import { AboutHeader, IMG } from './StyledWidgets';
 
 const AboutPage = () => {
     return (
@@ -23,13 +23,13 @@ const AboutPage = () => {
                 </Card.Body>
             </Card>
 
-            {/* <About> */}
+            
 
                 <div className="middle-content">
                   
                 
                 </div>
-            {/* </About> */}
+            
         </div>
     )
 }
